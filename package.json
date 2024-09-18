@@ -1,0 +1,30 @@
+{
+  "name": "booking-automation-cypress",
+  "version": "1.0.0",
+  "description": "Booking.com automation tests using Cypress and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "automation",
+    "testing",
+    "booking.com"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
+
